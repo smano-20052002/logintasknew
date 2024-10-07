@@ -1,0 +1,68 @@
+.login-background {
+    background: linear-gradient(90deg , #8eecff 25% , #fca3ff 100%);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-card {
+    width: 450px;
+    /* height: 400px; */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: azure;
+  }
+  
+  .input-container {
+    margin-bottom: 15px;
+  }
+  
+  .input-field {
+    width: 100%;
+    height: 4vh;
+    margin-top: 5px;
+    background-color: transparent;
+    border-radius: 3px;
+  }
+  
+  .input-error {
+    color: red;
+    font-size: 0.8em;
+  }
+  .alertmsg{
+    position: absolute;
+    top: 30vh;
+    width: 445px;
+    left: 37vw;
+    z-index: 99;
+  }
+  .Submit-Button {
+    width: 100%;
+    background-color: #007bff;
+    border: none;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    height: 4.5vh;
+    cursor: pointer;
+  }
+  
+  .Submit-Button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-message {
+    margin-top: 10px;
+    color: green;
+    text-align: center;
+  }
+  
+  .login-img{
+    width: 50px;
+    height: 50px;
+    
+  }
